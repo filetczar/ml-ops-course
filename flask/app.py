@@ -3,7 +3,7 @@ import numpy as np
 import json
 import requests 
 
-url = "http://127.0.0.1:8005/model"
+url = "http://35.238.229.233:8005/model"
 new_obs = np.array([[40, 20000], [50,50000], [23, 15000]])
 
 request_data = json.dumps({'age': 50, 'salary': 10000})
